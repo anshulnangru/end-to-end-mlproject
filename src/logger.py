@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 # Name of the log file
-LOG_FILE = f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
+LOG_FILE = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}.log"
 
 # Create logs folder correctly
 logs_folder = os.path.join(os.getcwd(), "logs")
